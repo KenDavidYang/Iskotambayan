@@ -1,0 +1,105 @@
+body {
+  background-image: linear-gradient(#7D7ABC, #23F0C7);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-attachment: fixed;
+  font-family: "Arial";
+  text-align: center;
+}
+h1 {
+  color: #FFE347;
+  font-family: 'Arial Rounded MT';
+  font-size: 7vw;
+  cursor: default;
+  margin-bottom: 20px;
+}
+.back-button{
+	font-family: 'Arial Rounded MT';
+	font-size: 40px;
+	color: #FFE347;
+	font-weight: 600; 
+	border-radius: 20px;
+	background-color: #EF767A;
+	padding: 10px 25px;
+	display: inline-block;
+	margin: 10px;
+	transition: opacity 0.4s;
+}
+.back-button:hover{
+	opacity: 0.6;
+}
+.back-button:active {
+	transition: background-color 0.2s;
+    background: #23F0C7;
+}
+.container {
+  background-color: #231b245b;
+  padding: 40px 50px;
+  margin: 0 auto;
+  width: 1000px;
+  border-radius: 20px;
+}
+.sub-container{
+  border-top: 5px solid #231b245b;
+}
+.credits-name{
+  color: black;
+  font-size: 50px; 
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.sub-container:hover{
+  opacity: 0.5;
+}
+.sub-container:active{
+  transition: background-color 0.2s;
+    background: #23f0c7a3;
+}
+.link-modifier{
+  text-decoration: none;
+}
+.credits-heading{
+  font-size: 100px;
+	color: solide #EF767A;
+	text-align: center;
+  padding-bottom: 60px;
+}
+.person-title{
+  color: black;
+  font: 20px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  border: 10px;
+}
+.navbar{
+	display:flex ;
+	align-items: center;
+	background-color: #00000067;
+	height:80px;
+	flex: 1;
+}
+
+.navbar li:hover{
+	background-image: linear-gradient(#7D7ABC,#23F0C7);
+}
+
+
+.logo{
+	float: left;
+}
+nav
+{	
+    text-align: center;
+}
+.navi{
+	font-family: 'Arial Rounded MT';
+	color: white;
+	font-size: 20px;
+  padding: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 18px;
+}

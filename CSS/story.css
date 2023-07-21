@@ -1,0 +1,90 @@
+body {
+    background-image: linear-gradient(#7D7ABC, #23F0C7);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    font-family: "Arial Rounded MT";
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #FFE347;
+    font-family: 'Arial Rounded MT';
+    font-size: 7vw;
+    cursor: default;
+    margin-bottom: 20px;
+  }
+
+.story-wrapper {
+	background-color: #6457A6;
+	padding: 3%;
+	border-radius: max(0px, min(16px, (100% - 400px + 1px) * 9999)) / 16px;
+}
+
+.title {
+	color: #FFE347;
+	font-size: 50px;
+	background-color: #EF767A;
+	display: inline-block;
+	padding: 1%;
+	border-radius: max(0px, min(16px, (100% - 400px + 1px) * 9999)) / 16px;
+	margin: 20px 0;
+}
+
+.story {
+	color: white;
+	text-indent: 5%;
+}
+
+.back-button{
+	font-family: 'Arial Rounded MT';
+	font-size: 40px;
+	color: #FFE347;
+	font-weight: 600; 
+	border-radius: 20px;
+	background-color: #EF767A;
+	padding: 10px 25px;
+	display: inline-block;
+	margin: 10px;
+	transition: opacity 0.4s;
+}
+.back-button:hover{
+	opacity: 0.6;
+}
+.back-button:active {
+	transition: background-color 0.2s;
+    background: #23F0C7;
+}
+.navbar{
+	display:flex ;
+	align-items: center;
+	background-color: #00000067;
+	height:80px;
+	flex: 1;
+}
+.navbar li:hover{
+	background-image: linear-gradient(#7D7ABC,#23F0C7);
+}
+
+
+.logo{
+	float: left;
+}
+nav
+{	
+    text-align: center;
+}
+.navi{
+	font-family: 'Arial Rounded MT';
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 18px;
+}
